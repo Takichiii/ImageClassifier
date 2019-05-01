@@ -83,9 +83,9 @@ Le taux d’erreur est de **39,82%** et le temps d’exécution est de **21.5 0 
 
 Pour avoir une idée de la difficulté de classification, voici des exemples d’images mal classées :
 
-N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/tree/master/res/img1.jpg)
-N°491 : ![alt text](https://github.com/Takichiii/ImageClassifier/tree/master/res/img2.jpg)
-N°121 : ![alt text](https://github.com/Takichiii/ImageClassifier/tree/master/res/img3.jpg)
+N°1492 : ![](https://github.com/Takichiii/ImageClassifier/blob/master/res/img1.JPG).
+N°491 : ![](https://github.com/Takichiii/ImageClassifier/blob/master/res/img2.JPG).
+N°121 : ![](https://github.com/Takichiii/ImageClassifier/blob/master/res/img3.JPG).
 
 |    Images               |    N°1492 |    N°491       |    N°121       |
 |-------------------------|--------------|----------------|----------------|
@@ -105,8 +105,7 @@ Grâce à l’utilisation de cet algorithme sur les données d’entrée, nous p
 
 Le graphe suivant présente l’impact de la réduction de dimension des images sur le taux d'erreur du classifieur bayésien :
 
-
-N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/tree/master/res/img4.jpg)
+![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img4.JPG)
 ```
 FIGURE 1 : PERFORMANCE DU CLASSIFIEUR BAYESIEN SELON LA TAILLE DES IMAGES REDUITES AVEC PCA
 ```
@@ -125,12 +124,12 @@ Nous comparons la performance de notre classifieur bayésien avec les autres cla
 - **LR** = Logistic Regression (Régression logistique)
 - **LDA** = Linear Discriminant Analysis (Analyse discriminante linéaire)
 
-N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/tree/master/res/img5.jpg)
+N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img5.JPG)
 ```
 FIGURE 2 : TAUX D’ERREUR PAR ALGORITHME DE CLASSIFICATION
 ```
 
-N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/tree/master/res/img6.jpg)
+N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img6.JPG)
 ```
 FIGURE 3 : TEMPS D’EXECUTION DE DIFFERENTS ALGORITHMES DE CLASSIFICATION
 ```
@@ -151,7 +150,7 @@ Le système présentant le meilleur compromis en termes de vitesse et de taux de
 
 La matrice de confusion pour la reconnaissance étudiée est alors :
 
-N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/tree/master/res/img7.jpg)
+N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/tree/master/res/img7.JPG)
 ```
 FIGURE 4 : MATRICE DE CONFUSION DU MEILLEUR SYSTEME POUR LA RECONNAISSANCE DE CHIFFRES
 ```
