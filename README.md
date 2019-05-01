@@ -124,12 +124,12 @@ Nous comparons la performance de notre classifieur bayésien avec les autres cla
 - **LR** = Logistic Regression (Régression logistique)
 - **LDA** = Linear Discriminant Analysis (Analyse discriminante linéaire)
 
-N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img5.JPG)
+![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img5.JPG)
 ```
 FIGURE 2 : TAUX D’ERREUR PAR ALGORITHME DE CLASSIFICATION
 ```
 
-N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img6.JPG)
+![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img6.JPG)
 ```
 FIGURE 3 : TEMPS D’EXECUTION DE DIFFERENTS ALGORITHMES DE CLASSIFICATION
 ```
@@ -150,7 +150,7 @@ Le système présentant le meilleur compromis en termes de vitesse et de taux de
 
 La matrice de confusion pour la reconnaissance étudiée est alors :
 
-N°1492 : ![alt text](https://github.com/Takichiii/ImageClassifier/tree/master/res/img7.JPG)
+![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img7.JPG)
 ```
 FIGURE 4 : MATRICE DE CONFUSION DU MEILLEUR SYSTEME POUR LA RECONNAISSANCE DE CHIFFRES
 ```
