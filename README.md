@@ -105,10 +105,18 @@ Grâce à l’utilisation de cet algorithme sur les données d’entrée, nous p
 
 Le graphe suivant présente l’impact de la réduction de dimension des images sur le taux d'erreur du classifieur bayésien :
 
-![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img4.JPG)
-```
-FIGURE 1 : PERFORMANCE DU CLASSIFIEUR BAYESIEN SELON LA TAILLE DES IMAGES REDUITES AVEC PCA
-```
+ <table border="0">
+  <tr>
+    <td align="center">
+      <img src="res/img4.JPG" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h6> Figure 1 - Performance du classifieur bayesien selon la taille des images reduites avec pca </h6>
+    </td>
+  </tr>
+</table>
 
 Nous remarquons que le meilleur taux de reconnaissance est atteint quand la taille des images produites par l’algorithme PCA est de **50 pixels**. Le taux d’erreur dans ce cas est de **14,26%,** ce qui représente une amélioration de performance **64 ,18%** par rapport à la classification sans réduction préalable.
 
@@ -124,15 +132,32 @@ Nous comparons la performance de notre classifieur bayésien avec les autres cla
 - **LR** = Logistic Regression (Régression logistique)
 - **LDA** = Linear Discriminant Analysis (Analyse discriminante linéaire)
 
-![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img5.JPG)
-```
-FIGURE 2 : TAUX D’ERREUR PAR ALGORITHME DE CLASSIFICATION
-```
+ <table border="0">
+  <tr>
+    <td align="center">
+      <img src="res/img5.JPG" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h6> Figure 2 - Taux d’erreur par algorithme de classification</h6>
+    </td>
+  </tr>
+</table>
 
-![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img6.JPG)
-```
-FIGURE 3 : TEMPS D’EXECUTION DE DIFFERENTS ALGORITHMES DE CLASSIFICATION
-```
+ <table border="0">
+  <tr>
+    <td align="center">
+      <img src="res/img6.JPG" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h6> Figure 3 - Temps d’execution de differents algorithmes de classification </h6>
+    </td>
+  </tr>
+</table>
+
 |    Classifieur          	|    Bayésien    	|    SVC       	|    KNC2      	|    KNC10     	|    DTC       	|    GNB      	|    LR        	|    LDA       	|
 |-------------------------	|----------------	|--------------	|--------------	|--------------	|--------------	|-------------	|--------------	|--------------	|
 |    Temps d’exécution    	|    0.86        	|    138.31    	|    13.55     	|    14.24     	|    4.05      	|    0.11     	|    1.67      	|    0.33      	|
@@ -150,10 +175,19 @@ Le système présentant le meilleur compromis en termes de vitesse et de taux de
 
 La matrice de confusion pour la reconnaissance étudiée est alors :
 
-![alt text](https://github.com/Takichiii/ImageClassifier/blob/master/res/img7.JPG)
-```
-FIGURE 4 : MATRICE DE CONFUSION DU MEILLEUR SYSTEME POUR LA RECONNAISSANCE DE CHIFFRES
-```
+ <table border="0">
+  <tr>
+    <td align="center">
+      <img src="res/img7.JPG" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h6> Figure 4 - Matrice de confusion du meilleur systeme pour la reconnaissance de chiffres </h6>
+    </td>
+  </tr>
+</table>
+
 Dans cette matrice, les colonnes représentent les étiquettes attribuées par le classifieur et les lignes les vraies étiquettes. Un élément (i,j) de la matrice représente le nombre d’images classées. Nous disposons de 500 images pour chaque classe (données de développement).
 
 ✓ Dans la diagonale, nous pouvons lire le nombre d’images bien classées pour chaque classe (ie que l’étiquette attribuée = la vraie étiquette). Par exemple : 450 /500 images de 1 ont été bien prédites,
